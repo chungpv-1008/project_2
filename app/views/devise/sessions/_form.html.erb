@@ -1,0 +1,62 @@
+<%= form_for :session, url: user_session_path do |f| %>
+  <div class="form-group">
+    <%= f.email_field :email, class: "form-control",
+      placeholder: t(".email") %>
+  </div>
+  <div class="form-group">
+    <%= f.password_field :password, class: "form-control",
+      placeholder: t(".password") %>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <%= f.submit t(".login"), class: "btn btn-primary btn-block"%>
+      </div>
+    </div>
+    <%= f.label :remember_me, class: "checkbox inline" do %>
+      <%= f.check_box :remember_me, checked: "checked" %>
+      <span><%= t ".remember_me" %></span>
+    <% end %>
+    <div class="col-md-6 text-right">
+    </div>
+  </div>
+<% end %>
+
+<section class="site-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-7">
+        <div class="form-wrap">
+          <h2 class="mb-4"></h2>
+          <%= form_for :session, url: user_session_path do |f| %>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <label for="email"><%= t ".email" %></label>
+                <%= f.email_field :email, class: "form-control py-2", id: "email", placeholder: t(".email") %>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-md-12 form-group">
+                <label for="password"><%= t ".password" %></label>
+                <%= f.password_field :password, class: "form-control py-2", id: "password", placeholder: t(".password") %>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <%= f.label :remember_me, class: "checkbox inline" do %>
+                  <%= f.check_box :remember_me, checked: "checked" %>
+                  <span><%= t ".remember_me" %></span>
+                <% end %>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <%= f.submit t(".login"), class: "btn btn-primary px-5 py-2"%>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

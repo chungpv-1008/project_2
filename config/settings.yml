@@ -1,0 +1,9 @@
+favicon_image: "favicon.ico"
+user:
+  max_length_email: 250
+  min_length_password: 6
+  max_length_username: 50
+  min_length_username: 4
+  email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
+  username_regex: !ruby/regexp '/[A-Za-z0-9\-\_\+]+/'
+  phone_regex: !ruby/regexp '/\A(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}\z/'

@@ -1,0 +1,58 @@
+vi:
+  layouts:
+    header:
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+      university: "University"
+      home: "Trang chủ"
+      blog: "Bài viết"
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      language: "Ngôn ngữ"
+      categories: "Thể loại"
+      courses: "Khóa học"
+      html: "HTML"
+      wordpress: "WordPress"
+      laravel: "Laravel"
+      javascript: "Javascript"
+      python: "Python"
+      login: "Đăng nhập"
+      register: "Đăng ký"
+  static_pages:
+    index:
+      title: "Trang chủ"
+  devise:
+    failure:
+      already_authenticated: "Bạn đã đăng nhập!"
+    sessions:
+      user:
+        already_signed_out: "Đăng xuất thành công!"
+        signed_out: "Đăng xuất thành công!"
+      new:
+        title: "Đăng nhập"
+      form:
+        title: "Đăng nhập với tài khoản của bạn"
+        email: "Email đăng nhập"
+        password: "Mật khẩu"
+        submit: "Đăng nhập"
+        remember_me: "Remember me"
+        login: "Đăng nhập"
+      create:
+        invalid_message: "Sai email hoặc mật khẩu"
+    registrations:
+      user:
+        already_signed_out: "Đăng xuất thành công!"
+        signed_out: "Đăng xuất thành công!"
+        signed_up: "Đăng ký thành công!"
+      new:
+        title: "Đăng ký"
+      form:
+        email: "Email đăng ký"
+        username: "Tên người dùng"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+        submit: "Đăng ký"
+  users:
+    sessions:
+      create:
+        invalid_message: "Sai email hoặc mật khẩu"

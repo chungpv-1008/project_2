@@ -1,0 +1,58 @@
+en:
+  layouts:
+    header:
+      en: "English"
+      vi: "Vietnamese"
+      university: "University"
+      home: "Home"
+      blog: "Blog"
+      about: "About"
+      contact: "Contact"
+      language: "Language"
+      categories: "Categories"
+      courses: "Courses"
+      html: "HTML"
+      wordpress: "WordPress"
+      laravel: "Laravel"
+      javascript: "Javascript"
+      python: "Python"
+      login: "Login"
+      register: "Register"
+  static_pages:
+    index:
+      title: "Home"
+  devise:
+    failure:
+      already_authenticated: "You logged in!"
+    sessions:
+      user:
+        already_signed_out: "Succeed loged out!"
+        signed_out: "Succeed loged out!"
+      new:
+        title: "Login"
+      form:
+        title: "Log in with your account"
+        email: "Email"
+        password: "Password"
+        remember_me: "Remember me"
+        submit: "Login"
+        login: "Login"
+      create:
+        invalid_message: "Invalid email or password"
+    registrations:
+      user:
+        already_signed_out: "Succeed loged out!"
+        signed_out: "Succeed loged out!"
+        signed_up: "Succeed registration!"
+      new:
+        title: "Register"
+      form:
+        email: "Email"
+        username: "Username"
+        password: "Password"
+        password_confirmation: "Password Confirmation"
+        submit: "Register"
+  users:
+    sessions:
+      create:
+        invalid_message: "Invalid email or password"
